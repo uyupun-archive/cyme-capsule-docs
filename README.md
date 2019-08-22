@@ -9,6 +9,6 @@ Cyme Capsuleのドキュメント用リポジトリ.
 |[use-case.md](./use-case.md)|ユースケース|
 |[tech-select.md](./tech-select.md)|技術選定|
 |comps|カンプ一覧|
-|flow.md|全体的なフロー|
-|api-design.md|API設計|
-|db-design.md|DB設計|
+|[flow.md](./flow.md)|全体的なフロー|
+|[api-design.md](./api-design.md)|API設計|
+|[db-design.md](./db-design.md)|DB設計|
