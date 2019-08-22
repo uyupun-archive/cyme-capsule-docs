@@ -7,4 +7,4 @@ Cyme Capsuleのドキュメント用リポジトリ.
 |:--|:--|
 |[what-is-this.md](./what-is-this.md)|どんなサービスなのかをまとめたドキュメント.|
 |[use-case.md](./use-case.md)|ユースケースを列挙したドキュメント.|
-|[tech-select](./tech-select.md)|技術選定に関するドキュメント.|
+|[tech-select.md](./tech-select.md)|技術選定に関するドキュメント.|
