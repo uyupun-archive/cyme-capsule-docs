@@ -5,7 +5,10 @@ Cyme Capsuleのドキュメント用リポジトリ.
 
 |ドキュメント名|説明|
 |:--|:--|
-|[what-is-this.md](./what-is-this.md)|どんなサービスなのかをまとめたドキュメント.|
-|[use-case.md](./use-case.md)|ユースケースを列挙したドキュメント.|
-|comps|カンプ一覧.|
-|[tech-select.md](./tech-select.md)|技術選定に関するドキュメント.|
+|[what-is-this.md](./what-is-this.md)|どんなサービスなのか|
+|[use-case.md](./use-case.md)|ユースケース|
+|[tech-select.md](./tech-select.md)|技術選定|
+|comps|カンプ一覧|
+|flow.md|全体的なフロー|
+|api-design.md|API設計|
+|db-design.md|DB設計|
