@@ -21,5 +21,6 @@
 ### フロントエンド
 - Nuxt.js ... Geolocation API
 - Bootstrap ... UI
+- Font Awesome
 
 # システム概念図
