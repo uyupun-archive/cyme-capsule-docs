@@ -45,7 +45,7 @@ POST /api/user/login
 ##### Endpoint
 
 ```text
-POST /api/capsule/list/buried
+GET /api/capsule/list/buried
 ```
 
 ##### Request
@@ -65,7 +65,7 @@ POST /api/capsule/list/buried
 ##### Endpoint
 
 ```text
-POST /api/capsule/list/dug
+GET /api/capsule/list/dug
 ```
 
 ##### Request
@@ -105,7 +105,7 @@ POST /api/capsule/bury
 ##### Endpoint
 
 ```text
-POST /api/capsule/search
+GET /api/capsule/search
 ```
 
 ##### Request
