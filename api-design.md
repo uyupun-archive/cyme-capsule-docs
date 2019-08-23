@@ -40,6 +40,26 @@ POST /api/user/login
 
 ```
 
+### ユーザログアウト
+
+##### Endpoint
+
+```text
+POST /api/user/logout
+```
+
+##### Request
+
+```json
+
+```
+
+##### Response
+
+```json
+
+```
+
 ### 埋めたカプセル一覧の取得
 
 ##### Endpoint
