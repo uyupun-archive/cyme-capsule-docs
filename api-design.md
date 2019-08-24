@@ -144,7 +144,8 @@ GET /api/capsule/open
 {
   "id": 1,
   "name": "XXXX",
-  "location": "XXXX",
+  "longitude": 1.14514,
+  "latitude": 1.919810,
   "burier": "XXXX",
   "message": "XXXXXXXXXX"
 }
@@ -163,7 +164,8 @@ POST /api/capsule/bury
 ```json
 {
   "name": "XXXX",
-  "location": "XXXX",
+  "longitude": 1.14514,
+  "latitude": 1.919810,
   "burier": "XXXX",
   "message": "XXXXXXXXXX"
 }
@@ -187,7 +189,8 @@ GET /api/capsule/search
 
 ```json
 {
-  "location": "XXXX"
+  "longitude": 1.14514,
+  "latitude": 1.919810
 }
 ```
 
@@ -225,7 +228,8 @@ POST /api/capsule/dig
 {
   "id": 1,
   "name": "XXXX",
-  "location": "XXXX",
+  "longitude": 1.14514,
+  "latitude": 1.919810,
   "burier": "XXXX",
   "message": "XXXXXXXXXX"
 }
