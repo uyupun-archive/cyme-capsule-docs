@@ -20,7 +20,9 @@ POST /api/user/register
 ##### Response
 
 ```json
-{}
+{
+  "access_token": "XXXX"
+}
 ```
 
 ### ユーザログイン
@@ -43,7 +45,9 @@ POST /api/user/login
 ##### Response
 
 ```json
-{}
+{
+  "access_token": "XXXX"
+}
 ```
 
 ### ユーザログアウト
@@ -85,8 +89,8 @@ GET /api/capsule/list/buried
 ```json
 [
   {
-    "name": "XXXX",
-    "id": 1
+    "id": 1,
+    "name": "XXXX"
   },
   ...
 ]
@@ -111,11 +115,39 @@ GET /api/capsule/list/dug
 ```json
 [
   {
-    "name": "XXXX",
-    "id": 1
+    "id": 1,
+    "name": "XXXX"
   },
   ...
 ]
+```
+
+### カプセルを開く
+
+##### Endpoint
+
+```text
+GET /api/capsule/open
+```
+
+##### Request
+
+```json
+{
+  "id": 1
+}
+```
+
+##### Response
+
+```json
+{
+  "id": 1,
+  "name": "XXXX",
+  "location": "XXXX",
+  "burier": "XXXX",
+  "message": "XXXXXXXXXX"
+}
 ```
 
 ### カプセルを埋める
@@ -132,6 +164,7 @@ POST /api/capsule/bury
 {
   "name": "XXXX",
   "location": "XXXX",
+  "burier": "XXXX",
   "message": "XXXXXXXXXX"
 }
 ```
@@ -170,7 +203,7 @@ GET /api/capsule/search
 ]
 ```
 
-### カプセルを掘り起こす
+### カプセルを掘り出す
 
 ##### Endpoint
 
@@ -181,11 +214,19 @@ POST /api/capsule/dig
 ##### Request
 
 ```json
-
+{
+  "id": 1
+}
 ```
 
 ##### Response
 
 ```json
-
+{
+  "id": 1,
+  "name": "XXXX",
+  "location": "XXXX",
+  "burier": "XXXX",
+  "message": "XXXXXXXXXX"
+}
 ```
