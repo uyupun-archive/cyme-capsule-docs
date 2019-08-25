@@ -19,7 +19,7 @@
 |:--|:--|:--|:--|
 |id|bigIncrements|-|ID|
 |capsule_name|text|-|タイムカプセルの名前|
-|user_id|unsignedBigInteger|ユーザID. usersテーブルのidカラムと紐付いている|
+|user_id|unsignedBigInteger|-|ユーザID. usersテーブルのidカラムと紐付いている|
 |user_name|text|-|タイムカプセルを埋めた人の名前|
 |message|text|-|タイムカプセルのメッセージ|
 |longitude|double|-|経度|
