@@ -19,6 +19,7 @@
 |:--|:--|:--|:--|
 |id|bigIncrements|-|ID|
 |capsule_name|text|-|タイムカプセルの名前|
+|user_id|unsignedBigInteger|ユーザID(数値)|
 |user_name|text|-|タイムカプセルを埋めた人の名前|
 |message|text|-|タイムカプセルのメッセージ|
 |longitude|double|-|経度|
@@ -33,19 +34,7 @@
 |:--|:--|:--|:--|
 |id|bigIncrements|-|ID|
 |capsule_id|unsignedBigInteger|-|掘り出したカプセルのID. time_capsulesテーブルのidカラムと紐付いている|
-|user_id|unsignedBigInteger|-|掘り出したユーザのID. usersテーブルのidカラムと紐付いている|
+|user_id|unsignedBigInteger|-|掘り出したユーザID(数値). usersテーブルのidカラムと紐付いている|
 |dug_at|timestamp|-|掘り出した日付|
-|created_at|timestamps|-|作成された日付. Laravelによってデフォルトで生成される|
-|updated_at|timestamps|-|更新された日付. Laravelによってデフォルトで生成される|
-
-### buried_time_capsules
-埋めたタイムカプセル情報を格納したテーブル.
-
-|カラム名|型|属性|説明|
-|:--|:--|:--|:--|
-|id|bigIncrements|-|ID|
-|capsule_id|unsignedBigInteger|-|掘り出したカプセルのID. time_capsulesテーブルのidカラムと紐付いている|
-|user_id|unsignedBigInteger|-|掘り出したユーザのID. usersテーブルのidカラムと紐付いている|
-|buried_at|timestamp|-|埋めた日付|
 |created_at|timestamps|-|作成された日付. Laravelによってデフォルトで生成される|
 |updated_at|timestamps|-|更新された日付. Laravelによってデフォルトで生成される|
