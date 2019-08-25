@@ -8,7 +8,7 @@
 |id|bigIncrements|-|数値のID. ユーザによる変更が不可|
 |user_id|text|unique|ユーザID. 半角英数字のみ|
 |password|text|-|ハッシュ化されたパスワード|
-|access_token|text|-|アクセストークン|
+|access_token|text|nullable|アクセストークン|
 |created_at|timestamps|-|作成された日付. Laravelによってデフォルトで生成される|
 |updated_at|timestamps|-|更新された日付. Laravelによってデフォルトで生成される|
 
