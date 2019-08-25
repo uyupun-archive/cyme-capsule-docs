@@ -90,7 +90,7 @@ GET /api/capsule/list/buried
 [
   {
     "id": 1,
-    "name": "XXXX"
+    "capsule_name": "XXXX"
   },
   ...
 ]
@@ -116,7 +116,7 @@ GET /api/capsule/list/dug
 [
   {
     "id": 1,
-    "name": "XXXX"
+    "capsule_name": "XXXX"
   },
   ...
 ]
@@ -143,11 +143,12 @@ GET /api/capsule/open
 ```json
 {
   "id": 1,
-  "name": "XXXX",
+  "capsule_name": "XXXX",
   "longitude": 1.14514,
   "latitude": 1.919810,
   "burier": "XXXX",
-  "message": "XXXXXXXXXX"
+  "message": "XXXXXXXXXX",
+  "dug_at": "XXXX"
 }
 ```
 
@@ -163,7 +164,7 @@ POST /api/capsule/bury
 
 ```json
 {
-  "name": "XXXX",
+  "capsule_name": "XXXX",
   "longitude": 1.14514,
   "latitude": 1.919810,
   "burier": "XXXX",
@@ -199,8 +200,8 @@ GET /api/capsule/search
 ```json
 [
   {
-    "name": "XXXX",
-    "id": 1
+    "id": 1,
+    "capsule_name": "XXXX"
   },
   ...
 ]
@@ -227,10 +228,11 @@ POST /api/capsule/dig
 ```json
 {
   "id": 1,
-  "name": "XXXX",
+  "capsule_name": "XXXX",
   "longitude": 1.14514,
   "latitude": 1.919810,
   "burier": "XXXX",
-  "message": "XXXXXXXXXX"
+  "message": "XXXXXXXXXX",
+  "dug_at": "XXXX"
 }
 ```
